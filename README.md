@@ -28,7 +28,7 @@ In /folder/
 
       $ git clone https://github.com/palwesh/Resume-Parser.git (clone this repo)
 
-## step 3 : configure packages (run this command)
+#### step 3 : configure packages (run this command)
 
     $ pip install Django==2.2
     $ pip install djangorestframework
@@ -39,13 +39,13 @@ In /folder/
     $ python manage.py makemigrations
     $ python manage.py migrate
 
-## step 4 : run project
+#### step 4 : run project
 
     $ python manage.py runserver
 
    resume upload api
 
-   ##   http://127.0.0.1:8000/upload/
+   #####   http://127.0.0.1:8000/upload/
 
    Open Postman and put this api
 
@@ -60,5 +60,5 @@ In /folder/
     like this
     name, pdf
 
-## step 5 : data will stored in sqlite db in userProfile table
+#### step 5 : data will stored in sqlite db in userProfile table
     login in djngo admin and check it
